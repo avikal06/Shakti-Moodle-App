@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      "@moodlehq/cordova-plugin-intent@2.2.0-moodle.2",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "@moodlehq/cordova-plugin-intent@2.2.0-moodle.2",
+  "_id": "@moodlehq/cordova-plugin-intent@2.2.0-moodle.2",
+  "_inBundle": false,
+  "_integrity": "sha512-EXJz9KrkZfk64VUexC8kFrHn/TEbcJCbAuN9yaESSWY33hUDIcBnFxCdgUUU9qA+JUsWL4/gaGtLVdYsStTRIw==",
+  "_location": "/@moodlehq/cordova-plugin-intent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@moodlehq/cordova-plugin-intent@2.2.0-moodle.2",
+    "name": "@moodlehq/cordova-plugin-intent",
+    "escapedName": "@moodlehq%2fcordova-plugin-intent",
+    "scope": "@moodlehq",
+    "rawSpec": "2.2.0-moodle.2",
+    "saveSpec": null,
+    "fetchSpec": "2.2.0-moodle.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@moodlehq/cordova-plugin-intent/-/cordova-plugin-intent-2.2.0-moodle.2.tgz",
+  "_spec": "2.2.0-moodle.2",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "Darryn Campbell"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/cordova-plugin-intent/issues"
+  },
+  "cordova": {
+    "id": "@moodlehq/cordova-plugin-intent",
+    "platforms": [
+      "android"
+    ]
+  },
+  "description": "Moodle's fork of a general purpose intent shim layer for cordova appliations on Android. Handles various techniques for sending and receiving intents.",
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-intent#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "Intent"
+  ],
+  "license": "MIT",
+  "main": "intentShim.js",
+  "name": "@moodlehq/cordova-plugin-intent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodlemobile/cordova-plugin-intent.git"
+  },
+  "version": "2.2.0-moodle.2"
+}

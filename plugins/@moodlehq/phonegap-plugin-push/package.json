@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "@moodlehq/phonegap-plugin-push@4.0.0-moodle.6",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "@moodlehq/phonegap-plugin-push@4.0.0-moodle.6",
+  "_id": "@moodlehq/phonegap-plugin-push@4.0.0-moodle.6",
+  "_inBundle": false,
+  "_integrity": "sha512-0ddoef5tXsCRfv8MKNfsUZdO+63GK+s8dYON8E8hFhO0RxEp1mhqeTj8vnxBvjyjl2IlVGUXiOPwshgabxoBRA==",
+  "_location": "/@moodlehq/phonegap-plugin-push",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@moodlehq/phonegap-plugin-push@4.0.0-moodle.6",
+    "name": "@moodlehq/phonegap-plugin-push",
+    "escapedName": "@moodlehq%2fphonegap-plugin-push",
+    "scope": "@moodlehq",
+    "rawSpec": "4.0.0-moodle.6",
+    "saveSpec": null,
+    "fetchSpec": "4.0.0-moodle.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@moodlehq/phonegap-plugin-push/-/phonegap-plugin-push-4.0.0-moodle.6.tgz",
+  "_spec": "4.0.0-moodle.6",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "Erisu"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/phonegap-plugin-push/issues"
+  },
+  "cordova": {
+    "id": "@moodlehq/phonegap-plugin-push",
+    "platforms": [
+      "ios",
+      "android",
+      "windows",
+      "browser"
+    ]
+  },
+  "description": "Moodle's fork of Cordova Push Plugin.",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@cordova/eslint-config": "^4.0.0",
+    "babel-plugin-add-header-comment": "^1.0.3",
+    "fs-extra": "^10.0.0",
+    "jasmine": "^3.9.0",
+    "nodemon": "^2.0.12",
+    "nopt": "^5.0.0",
+    "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=8.0.0",
+        "cordova-ios": ">=5.1.1"
+      },
+      "2.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=8.0.0",
+        "cordova-ios": ">=6.0.0"
+      },
+      "3.0.0": {
+        "cordova": ">=10.0.0",
+        "cordova-android": ">=9.0.0",
+        "cordova-ios": ">=6.0.0"
+      }
+    }
+  },
+  "homepage": "http://github.com/moodlemobile/phonegap-plugin-push#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "license": "MIT",
+  "name": "@moodlehq/phonegap-plugin-push",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moodlemobile/phonegap-plugin-push.git"
+  },
+  "scripts": {
+    "build": "babel src/js --out-dir www",
+    "build:watch": "nodemon -w ./src/js -e js -x npm run build",
+    "jasmine": "jasmine --config=spec/unit.json",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
+    "test": "npm run build && npm run lint && npm run jasmine"
+  },
+  "types": "./types/index.d.ts",
+  "version": "4.0.0-moodle.6"
+}

@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-screen-orientation@3.0.3",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "cordova-plugin-screen-orientation@3.0.3",
+  "_id": "cordova-plugin-screen-orientation@3.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Dt8lO8BECZfE/pKbYQZ72Wr811fYMScxw7c9v/gJ3etOPCBrgl8xIHOOZu4nY2ehRyxFPtZi3VeGvIG+3DZoZQ==",
+  "_location": "/cordova-plugin-screen-orientation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-screen-orientation@3.0.3",
+    "name": "cordova-plugin-screen-orientation",
+    "escapedName": "cordova-plugin-screen-orientation",
+    "rawSpec": "3.0.3",
+    "saveSpec": null,
+    "fetchSpec": "3.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-screen-orientation/-/cordova-plugin-screen-orientation-3.0.3.tgz",
+  "_spec": "3.0.3",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-screen-orientation/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-screen-orientation",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "description": "Cordova Screen Orientation plugin",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-screen-orientation#readme",
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "device",
+    "ecosystem:cordova",
+    "screen",
+    "orientation",
+    "portrait",
+    "landscape"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-screen-orientation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-screen-orientation.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "version": "3.0.3"
+}

@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "@moodlehq/cordova-plugin-file-transfer@1.7.1-moodle.5",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "@moodlehq/cordova-plugin-file-transfer@1.7.1-moodle.5",
+  "_id": "@moodlehq/cordova-plugin-file-transfer@1.7.1-moodle.5",
+  "_inBundle": false,
+  "_integrity": "sha512-1JzvVTLw2V7Pjo+uOXXaMneNR1UpEc9CLD/lsZi8njMe393THr/nfmgOkfmrrtMhIdfDCY1i+ygg1N5Z/D//Kg==",
+  "_location": "/@moodlehq/cordova-plugin-file-transfer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@moodlehq/cordova-plugin-file-transfer@1.7.1-moodle.5",
+    "name": "@moodlehq/cordova-plugin-file-transfer",
+    "escapedName": "@moodlehq%2fcordova-plugin-file-transfer",
+    "scope": "@moodlehq",
+    "rawSpec": "1.7.1-moodle.5",
+    "saveSpec": null,
+    "fetchSpec": "1.7.1-moodle.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@moodlehq/cordova-plugin-file-transfer/-/cordova-plugin-file-transfer-1.7.1-moodle.5.tgz",
+  "_spec": "1.7.1-moodle.5",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/cordova-plugin-file-transfer/issues"
+  },
+  "cordova": {
+    "id": "@moodlehq/cordova-plugin-file-transfer",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser"
+    ]
+  },
+  "description": "Moodle's fork of Cordova File Transfer Plugin",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-file-transfer/tree/main#readme",
+  "keywords": [
+    "cordova",
+    "file",
+    "transfer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "name": "@moodlehq/cordova-plugin-file-transfer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodlemobile/cordova-plugin-file-transfer.git#main"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "1.7.1-moodle.5"
+}

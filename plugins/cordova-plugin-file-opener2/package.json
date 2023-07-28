@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-file-opener2@4.0.0",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "cordova-plugin-file-opener2@4.0.0",
+  "_id": "cordova-plugin-file-opener2@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+O+MMldI2k5Kjoa62KXYxnZQIGE4k5VfoCmmOUmaV5XM6U6euiiKMfCkuMrOrdAFb1C5Jsx+SuBHbWx1NEB5lw==",
+  "_location": "/cordova-plugin-file-opener2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-file-opener2@4.0.0",
+    "name": "cordova-plugin-file-opener2",
+    "escapedName": "cordova-plugin-file-opener2",
+    "rawSpec": "4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "4.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-4.0.0.tgz",
+  "_spec": "4.0.0",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "pwlin05@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pwlin/cordova-plugin-file-opener2/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-file-opener2",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "electron"
+    ]
+  },
+  "description": "A File Opener Plugin for Cordova. (The Original Version)",
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">=6.0.0"
+      },
+      "3.0.0": {
+        "cordova": ">=7.0.0"
+      },
+      "4.0.0": {
+        "cordova-android": ">=10.0.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/pwlin/cordova-plugin-file-opener2#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-electron"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-file-opener2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwlin/cordova-plugin-file-opener2.git"
+  },
+  "version": "4.0.0"
+}

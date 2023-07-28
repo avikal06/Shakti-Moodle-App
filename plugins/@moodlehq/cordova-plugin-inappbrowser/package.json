@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      "@moodlehq/cordova-plugin-inappbrowser@5.0.0-moodle.3",
+      "C:\\Users\\HP\\moodleapp"
+    ]
+  ],
+  "_from": "@moodlehq/cordova-plugin-inappbrowser@5.0.0-moodle.3",
+  "_id": "@moodlehq/cordova-plugin-inappbrowser@5.0.0-moodle.3",
+  "_inBundle": false,
+  "_integrity": "sha512-BDW53W8BzHIJY6lqV3IyYIO9Rh3qi/nA3qkwZjvJiw7iohlQMeR67LV+bXjM4I8N1PTGoBSXiS5BmaS9NFi/1A==",
+  "_location": "/@moodlehq/cordova-plugin-inappbrowser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@moodlehq/cordova-plugin-inappbrowser@5.0.0-moodle.3",
+    "name": "@moodlehq/cordova-plugin-inappbrowser",
+    "escapedName": "@moodlehq%2fcordova-plugin-inappbrowser",
+    "scope": "@moodlehq",
+    "rawSpec": "5.0.0-moodle.3",
+    "saveSpec": null,
+    "fetchSpec": "5.0.0-moodle.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@moodlehq/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-5.0.0-moodle.3.tgz",
+  "_spec": "5.0.0-moodle.3",
+  "_where": "C:\\Users\\HP\\moodleapp",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/cordova-plugin-inappbrowser/issues"
+  },
+  "cordova": {
+    "id": "@moodlehq/cordova-plugin-inappbrowser",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "description": "Moodle's fork of Cordova InAppBrowser Plugin",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.2.3": {
+        "cordova": ">=3.1.0"
+      },
+      "4.0.0": {
+        "cordova": ">=3.1.0",
+        "cordova-ios": ">=4.0.0"
+      },
+      "5.0.0": {
+        "cordova": ">=9.0.0",
+        "cordova-android": ">=9.0.0",
+        "cordova-ios": ">=6.0.0"
+      },
+      "6.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-inappbrowser#readme",
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "license": "Apache-2.0",
+  "name": "@moodlehq/cordova-plugin-inappbrowser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "5.0.0-moodle.3"
+}
